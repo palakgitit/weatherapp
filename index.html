@@ -6,32 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatherApp</title>
     <link rel="stylesheet" href="./asset/css/weather.css">
-   	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="icon" href="./asset/img/icon.jpg" type="image/jpeg">
 </head>
 
 <body>
 
 
-    <section>
-        <div class="container">
+    <section class="weatherBG">
+        <div class="container ">
             <div class="row">
-                <div class="col-12 weatherCard">
-                    <div class="row">
-                        <div class="col-6 cloudImg ">
-                            <img src="./asset/img/cloudUI.jpg" alt="cloudImg" class="img-fluid">
+                <div class="col-12  weatherCard ">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-7 cloudImg ">
+                            <img src="./asset/img/cloudUI.jpg" alt="cloudImg">
                         </div>
-                        <div class="col-6 dataItem ">
-                            <h2> Weather Data </h2>
+                        <div class="col-5 dataItem ">
+                            <h2> <span class="data-text">Weather</span> Data </h2>
                             <form action="">
                                 <input type="text" placeholder="Enter The City" id="cityEntered">
-                                <button type="submit" onclick="weatherData">
+                                <button type="submit">
                                     Search
                                 </button>
                             </form>
-                            <div class="displayData" id="displayData">
-                                
+                            <div class="dataCard d-flex justify-content-between">
+                                <div class="labels">
+                                    <li class="mb-1">Name </li>
+                                    <li class="mb-1">TEMP</li>
+                                    <li class="mb-1">HUMIDITY</li>
+                                    <li class="mb-1">Wind Speed</li>
+                                    <li class="mb-1">Condition</li>
+                                </div>
+                                <div class="displayData text-end pe-5" id="displayData">
+
+                                </div>
+
                             </div>
-                        
+
                         </div>
                     </div>
                 </div>

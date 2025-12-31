@@ -2,29 +2,62 @@
     box-sizing: border-box;
     margin: 0px;
 }
+::selection{
 
+    background-color: #a63310b4;
+}
+
+ul ,li {
+
+    list-style-type: none;
+}
+.py-70{
+
+    padding-top: 70px;
+}
+
+.weatherBG{
+
+    align-content: center;
+    background: linear-gradient(#E2DEBD,#e2debd9d,#e2dfb0) ;
+
+}
 .weatherCard {
     margin: 0 auto !important;
     overflow: hidden;
     border-radius: 30px;
+    background-color: white;
+}
+
+.cloudImg{
+
+    padding: 0px !important;
 
 }
 .cloudImg img {
-    width: 100%;
+   
     border-radius: 20px;
     width: 100%;
-    height: 100%;
 }
 
 .dataItem {
-    padding-left: 30px;
+    padding-left: 50px !important;
+    padding-top: 30px;
+}
+
+.data-text{
+
+    color: #E3DE84;
+    border-bottom: #7F4A4E  solid 4px ;
+
 }
 
 form input {
     border: 1px rgba(21, 6, 6, 0.257) solid;
     outline: 2px transparent solid;
-    padding: 7px;
+    padding: 7px;   
     width: auto;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -41,7 +74,6 @@ form button {
     height: 40px;
     color: #8bac3f;
     font-weight: 500;
-
     transition: all ease-in-out 0.2s;
 }
 
@@ -50,4 +82,19 @@ form button:hover {
     background-color: #7E4A4E;
     color: #E3A574;
 
+}
+
+section{
+    height: 620px;
+}
+
+.dataCard .labels{
+
+    font-weight: 600;
+}
+.displayData{
+
+    color: rgb(95, 91, 91);
+    font-style: italic;
+    font-weight: 500;
 }
