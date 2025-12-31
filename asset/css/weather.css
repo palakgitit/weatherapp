@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.weatherCard {
+    margin: 0 auto !important;
+    overflow: hidden;
+    border-radius: 30px;
+
+}
+.cloudImg img {
+    width: 100%;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.dataItem {
+    padding-left: 30px;
+}
+
+form input {
+    border: 1px rgba(21, 6, 6, 0.257) solid;
+    outline: 2px transparent solid;
+    padding: 7px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+form input:hover {
+    outline: 2px #E3DE84 solid;
+}
+
+form button {
+
+    border: 1px transparent solid;
+    background-color: #fffa97;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    color: #8bac3f;
+    font-weight: 500;
+
+    transition: all ease-in-out 0.2s;
+}
+
+form button:hover {
+
+    background-color: #7E4A4E;
+    color: #E3A574;
+
+}
