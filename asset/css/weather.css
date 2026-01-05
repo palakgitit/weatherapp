@@ -98,3 +98,30 @@ section{
     font-style: italic;
     font-weight: 500;
 }
+.blueDatabox{
+
+    background-color: rgb(56, 98, 187);
+    border-radius: 20px;
+    margin-top: 30px;
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    height: 80px;
+}
+
+.blueDatabox span{
+
+    color: white;
+    
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.blueDatabox h6{
+
+    display: block;
+    color: yellow;
+    font-weight: 600;
+    font-size: 20px;
+}
