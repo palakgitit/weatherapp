@@ -62,7 +62,7 @@ A simple weather application that lets users check **current weather** and a **4
 1. Clone or download the project
 2. Open `index.html` in your browser
 3. Enter a city name
-4. Enjoy knowing the weather before stepping outside like a responsible adult ☀️🌧️
+4. Enjoy knowing the weather ☀️🌧️
 
 
 ## 🔑 API Key Note
